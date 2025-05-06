@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400px;
+    color: #5D5D7D;
+}
+
+.conteiner {
+    height: 100vh;
+    width: 100vw;
+}
+
+.conteiner-right {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+
+.conteiner-left {
+    display: inline-block;
+    width: 60%;
+    padding-left: 136px;
+    margin-top: 10%;
+}
+
+img {
+    position: relative;
+    top: 20%;
+    right: 25%;
+}
+
+a {
+    width: 59px;
+    height: 41px;
+    font-size: 28px;
+    line-height: 41.5px;
+    margin-right: 41px;
+}
+
+a:nth-child(2) {
+    opacity: .4;
+}
+
+a:hover {
+    opacity: .4;
+}
+
+a:active {
+    opacity: .8;
+}
+
+h1 {
+    width: 368px;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+p {
+    width: 540px;
+    font-size: 28px;
+    line-height: 48px;
+    opacity: 0.6;
+    margin: 15px 0px;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    font-size: 24px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    color: #ffffffff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+header {
+    margin: 24px 0 0 57px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+    .conteiner-left {
+        width: 180px;
+        height: 50px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .conteiner-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+
+    img {
+        position: static;
+        width: 90%;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        margin: 58px 50px 0 58px;
+        text-align: center;
+        width: auto;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin: 15px 40px;
+        width: auto;
+    }
+
+    button {
+        margin: 0 auto;
+        display: block;
+        width: 200px;
+        line-height: 62px;
+    }
+
+}
